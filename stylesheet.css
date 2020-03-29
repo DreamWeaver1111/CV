@@ -4,6 +4,17 @@ body {
   font-style: italic;
   color: #481b79;
 }
+/*h1 edits*/
+h1{
+  font-size: 150%;
+  transition: 1s;
+  word-spacing: 0.5em;
+  letter-spacing: 0.2em;
+  
+}
+h1:hover{
+  font-size:200%;
+  color: rgb(179, 151, 245);
 
 /*horizontal rule*/
 hr {
@@ -16,10 +27,7 @@ hr {
     rgba(109, 75, 163, 0)
   );
 }
-/*image edits*/
-img {
-  opacity: 0.7;
-}
+
 
 /*link edits*/
 a.hover {
@@ -69,3 +77,8 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.212) 0 3px 13px 1px;
 }
+
+
+
+
+
